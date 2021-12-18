@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./style.css" />
+  <title>HTMLRecap</title>
+  <head>
+    <style>
+      body {
+        background-color: gray;
+      }
+
+      .box {
+        position: relative;
+        width: 70%;
+        height: 80%;
+
+        text-align: center;
+        margin: auto;
+      }
+
+      .navigation {
+        position: absolute;
+        top: 15%;
+        left: 35%;
+      }
+
+      .bar li {
+        display: inline-block;
+        padding: 1rem;
+     
+      }
+
+      .stats {
+
+        position: absolute;
+        top: 25%;
+        left: 35%;
+
+      }
+
+      .video {
+
+        position: absolute;
+        top: 40%;
+        left: 30%;
+
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <div class="box">
+      <img
+        src="https://www.pikpng.com/pngl/b/120-1201777_gallery-pirate-scroll-transparent-clipart.png"
+      />
+      <div class="navigation">
+        <ul class="bar">
+          <li><strong>Home</strong></li>
+          <li><strong>Map</strong></li>
+          <li><strong>Contact</strong></li>
+          <li><strong>About Us</strong></li>
+        </ul>
+      </nav>
+    </div>
+
+    <form class="stats">
+      <label>Pirate Name:<input name="stats"></label> 
+      <p>
+      <input type="radio" name="male">
+      <label>Male</label>
+      <input type="radio" name="female">
+      <label>Female</label>
+      </p>
+    </form>
+
+    <p>
+        <div class="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/2aBtDz87UK0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    </p>
+         </div>
+  </body>
+</html>
+
